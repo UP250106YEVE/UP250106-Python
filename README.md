@@ -82,4 +82,73 @@ Una vez instalado el programa, corroboraremos en Powershell que esté instalado 
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/3dd92d41-f055-41d7-b7c7-78fe2e3bc251" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/f77569c4-0ec3-4f51-b105-d97a2448cfa6" />
 
+-----------
+## Visual Studio Code
+### Descripción de VSC
+Es un editor de código creado por Microsoft. Sirve para escribir, editar y organizar código en lenguajes como Python, JavaScript, C++, Java y muchos más, todo desde una sola aplicación.
+
+Es muy popular porque es ligero, rápido y gratuito, tiene resaltado de sintaxis, autocompletado, detección de errores, depuración (debug), terminal integrada y permite instalar extensiones para agregar funciones extra, como soporte para Git o Python. Por eso se usa mucho tanto en la escuela como en proyectos profesionales.
+
+### Instalación de VSC
+
+#### PASO 1
+Dirígete a la página oficial de Visual Studio Code y descarga la versión más compatible con tu dispositivo.
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/018a06e2-f756-41f4-be65-c9c4216a333a" />
+
+#### PASO 2
+Ejecutas el User Setup previamente descargado y te abrirá una ventana de instalación donde veremos:
+ + Términos y condiciones de uso
+ + La carpeta donde se instalará nuestro VSC
+ + La carpeta de menú
+ + Tareas adicionales de VSC
+ + Instalación
+Prácticamente todo quedará en default, por lo que constantemente clickearmos `Select` hasta proceder a la instalación.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/365d7398-0c00-489b-88e8-54f26e9c78ac" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/62a8209e-188e-43a5-9019-8cc8a58ac8ba" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/db0d571b-70ec-4d62-b06e-e2bca1ce5ae5" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/992b752c-3d46-47f2-86bb-efc9a2bc3901" />
+
+#### PASO 3
+Finalmente ejecutaremos VSC para corroborar que todo haya quedado instalado y estaremos listos para trabajar.
+
+<img width="865" height="400" alt="image" src="https://github.com/user-attachments/assets/335f718b-ca69-4561-9c6f-ff41d3781932" />
+
+------- 
+
+## Cración y clonación de nuestro repositorio en GitHub
+
+### Creación del repositorio
+
+#### PASO 1
+Entraremos a nuestra cuenta en Git y buscaremos en la pantalla `New Repository`
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/5e8cb0c4-147e-493a-a040-4505842b408e" />
+
+#### PASO 2
+En la siguiente pantalla, aparecerán las opciones de cración del repositorio, en donde podremos agregarle el nombre, una breve descripción y poder darle visibilidad, agregar el `README`, `.gitignore` y `Add licence`. Una vez configurado le daremos click en `Create Repository`.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/24f43028-7bc6-456b-90a9-a304511acc9e" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/14a5374e-1850-4130-9e2c-8738e9c563ec" />
+
+#### PASO 3 
+Una vez creado, podremos editarlo o incluso agregar colaboradores a nuestro proyecto.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/c9c8b7e4-823c-4d71-a655-b08c691ee3df" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/473d3154-7684-4657-a99d-4713e56e9af0" />
+
+### Clonación del Repositorio 
+
+#### PASO 1
+Deberás crear una carpeta donde clonaremos nuestro repositorio.
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/778e2f2a-f197-4ff4-84aa-73911da5d5bd" />
+
+#### PASO 2
+Ir a GitHub y copiar la `URL`o `enlace` del repositorio que desees clonar.
+
+<img width="466" height="306" alt="image" src="https://github.com/user-attachments/assets/579d0571-4abf-45ec-98d2-294050563288" />
+
+#### PASO 3
+Abre tu terminal o la terminal de GitBash:
++ Escribe el comando `git clone` y pega la `URL` del repositorio.
++ Abre en Visual Studio la carpeta donde se clonó tu repositorio con el comando `clone`.
+  
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/267ecf70-bf67-40d2-929f-7110b623d6e2" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/54040540-010f-4eaa-a9eb-491844122d4e" />
 
