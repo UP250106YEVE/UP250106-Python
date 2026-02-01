@@ -71,11 +71,13 @@ Con Python puedes hacer muchísimas cosas: desarrollar programas de escritorio, 
 <br>
 
 #### PASO 1
+
 Ingresamos a `Python.org` y descargamos la versión que mejor se adapte a nuestro dispositivo.
 + En este caso, sería la opción de 64 Bits.
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/8aa92a15-a0ec-4a40-8e68-2bfbce41cfc4" />
 <br>
+
 #### PASO 2 
 Una vez descargado, ejecutamos el instalador, debajo del cualapareceran dos opciones de preferencias que se aplicarán según se desee. Después se le dará click al botón `Install`.
 
@@ -128,17 +130,20 @@ Entraremos a nuestra cuenta en Git y buscaremos en la pantalla `New Repository`
 
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/5e8cb0c4-147e-493a-a040-4505842b408e" />
 <br>
+
 #### PASO 2
 En la siguiente pantalla, aparecerán las opciones de cración del repositorio, en donde podremos agregarle el nombre, una breve descripción y poder darle visibilidad, agregar el `README`, `.gitignore` y `Add licence`. Una vez configurado le daremos click en `Create Repository`.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/24f43028-7bc6-456b-90a9-a304511acc9e" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/14a5374e-1850-4130-9e2c-8738e9c563ec" />
 <br>
+
 #### PASO 3 
 Una vez creado, podremos editarlo o incluso agregar colaboradores a nuestro proyecto.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/c9c8b7e4-823c-4d71-a655-b08c691ee3df" />
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/473d3154-7684-4657-a99d-4713e56e9af0" />
 <br>
+
 ### Clonación del Repositorio 
 
 #### PASO 1
@@ -146,11 +151,13 @@ Deberás crear una carpeta donde clonaremos nuestro repositorio.
 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/778e2f2a-f197-4ff4-84aa-73911da5d5bd" />
 <br>
+
 #### PASO 2
 Ir a GitHub y copiar la `URL`o `enlace` del repositorio que desees clonar.
 
 <img width="466" height="306" alt="image" src="https://github.com/user-attachments/assets/579d0571-4abf-45ec-98d2-294050563288" />
 <br>
+
 #### PASO 3
 Abre tu terminal o la terminal de GitBash:
 + Escribe el comando `git clone` y pega la `URL` del repositorio.
