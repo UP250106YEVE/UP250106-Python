@@ -69,7 +69,7 @@ Con Python puedes hacer muchísimas cosas: desarrollar programas de escritorio, 
 Ingresamos a `Python.org` y descargamos la versión que mejor se adapte a nuestro dispositivo.
 + En este caso, sería la opción de 64 Bits.
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/8aa92a15-a0ec-4a40-8e68-2bfbce41cfc4" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/8aa92a15-a0ec-4a40-8e68-2bfbce41cfc4" />
 
 #### PASO 2 
 Una vez descargado, ejecutamos el instalador, debajo del cualapareceran dos opciones de preferencias que se aplicarán según se desee. Después se le dará click al botón `Install`.
@@ -120,7 +120,7 @@ Finalmente ejecutaremos VSC para corroborar que todo haya quedado instalado y es
 #### PASO 1
 Entraremos a nuestra cuenta en Git y buscaremos en la pantalla `New Repository`
 
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/5e8cb0c4-147e-493a-a040-4505842b408e" />
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/5e8cb0c4-147e-493a-a040-4505842b408e" />
 
 #### PASO 2
 En la siguiente pantalla, aparecerán las opciones de cración del repositorio, en donde podremos agregarle el nombre, una breve descripción y poder darle visibilidad, agregar el `README`, `.gitignore` y `Add licence`. Una vez configurado le daremos click en `Create Repository`.
