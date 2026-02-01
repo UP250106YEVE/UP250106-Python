@@ -16,7 +16,7 @@ Un repositorio en GitHub es un espacio en línea donde se almacena un proyecto (
 ### *Descripcion de Git*
 Git es un programa de control de versiones que sirve para guardar, organizar y seguir los cambios que haces en archivos, sobre todo en proyectos de programación. Te permite ver qué se modificó, cuándo y quién lo hizo, volver a versiones anteriores si algo falla y trabajar en equipo sin pisarse el trabajo. Funciona de forma local en tu computadora y suele usarse junto con plataformas como GitHub, que solo es el lugar en internet donde se guardan y comparten los proyectos hechos con Git.
 
-### *Instalacion de Git*
+### *Instalación de Git*
 
 #### PASO 1
 Abre tu navegador, ve al sitio oficial: https://git-scm.com/ y haz clic en Download for Windows o Mac para bajar el instalador.
@@ -58,7 +58,7 @@ Después de seleccionar las opciones anteriores, le daremos click en `Install`, 
 
 -----------
 ## Python
-### *Descripcion de Python*
+### *Descripción de Python*
 Python es un lenguaje de programación sencillo y poderoso que se usa para crear programas, automatizar tareas y resolver problemas de forma clara y rápida. Se caracteriza por tener una sintaxis fácil de leer (casi como inglés), lo que lo hace ideal para principiantes, pero también es muy usado por profesionales.
 
 Con Python puedes hacer muchísimas cosas: desarrollar programas de escritorio, crear páginas web, analizar datos, trabajar con inteligencia artificial, automatizar procesos, hacer cálculos científicos e incluso programar robots. Por eso se usa mucho en la escuela, en la industria y en proyectos reales. Es un lenguaje versátil, gratuito y con una comunidad enorme que crea librerías para casi todo.
@@ -83,7 +83,7 @@ Una vez instalado el programa, corroboraremos en Powershell que esté instalado 
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/3dd92d41-f055-41d7-b7c7-78fe2e3bc251" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/f77569c4-0ec3-4f51-b105-d97a2448cfa6" />
 
 -----------
-## Visual Studio Code
+## Descripción Visual Studio Code
 ### Descripción de VSC
 Es un editor de código creado por Microsoft. Sirve para escribir, editar y organizar código en lenguajes como Python, JavaScript, C++, Java y muchos más, todo desde una sola aplicación.
 
