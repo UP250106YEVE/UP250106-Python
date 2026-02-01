@@ -7,6 +7,40 @@ Este repositorio tiene la finalidad de almacenar los trabajos realizados en la a
 
 Un repositorio en GitHub es un espacio en línea donde se almacena un proyecto (como código, documentos o archivos), junto con el historial de todos sus cambios, lo que permite saber qué se modificó, cuándo y por quién. Sirve para organizar, respaldar y compartir proyectos, facilitar el trabajo colaborativo, llevar un control de versiones y mantener un registro ordenado del desarrollo, ya sea para uso personal, escolar o profesional.
 
+Este repositorio contiene un proyecto desarrollado en `Python`, cuyo objetivo principal es explicar, almacenar y ejecutar código relacionado con la materia.
+
+##  ¿Qué hace el proyecto?
+
+El proyecto implementa programas en Python que permiten comprender los conceptos básicos de programación, como:
+- Uso de variables
+- Estructuras de control (condicionales y ciclos)
+- Entrada y salida de datos
+- Resolución de problemas mediante algoritmos
+
+Cada archivo del repositorio representa un ejercicio o práctica independiente.
+
+## Propósito del proyecto
+
+El propósito de este proyecto es:
+- Facilitar el aprendizaje de Python de forma práctica
+- Servir como evidencia académica de los trabajos realizados
+- Reforzar la lógica de programación mediante ejemplos claros
+
+## Alcance del proyecto
+
+El proyecto está enfocado en un nivel básico para nuestro aprendizaje, por lo cual:
+- No utiliza librerías avanzadas
+- Está orientado a estudiantes que comienzan en programación
+- Puede ejecutarse en cualquier entorno que soporte Python 3
+
+## ¿Para qué sirve este repositorio?
+
+Este repositorio sirve para:
+-  **Almacenar** el código fuente del proyecto
+-  **Compartir** los programas mediante GitHub
+-  **Ejecutar** y probar los programas en Python
+-  **Documentar** el aprendizaje y progreso del autor
+
 ------------
 <br>
 
