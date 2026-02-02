@@ -199,3 +199,6 @@ Abre tu terminal o la terminal de GitBash:
   
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/267ecf70-bf67-40d2-929f-7110b623d6e2" /><img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/54040540-010f-4eaa-a9eb-491844122d4e" />
 
+<br>
+
+De este modo ya estarían instalados los programas, y el repositorio totalmente creado y clonado.
