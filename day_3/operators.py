@@ -5,7 +5,6 @@
 
 import math
 
-
 myage = 18 #Integer
 myheight = 1.71 #meters, float
 complex = 5+5j #Complex
@@ -82,3 +81,45 @@ if m==m2:
 else:
     print('Las pendientes son diferentes. ''Pendiente 1: ',m,' ''Pendiente 2: ',m2 )
 
+
+# - Calculate value of (y=x^2+6x+9)
+
+def calculate_y(x):
+    return x**2 + 6*x + 9
+
+# 1. Calculating values for a specific range
+print("Calculo para valores en X:")
+for x in range(-6, 2):
+    y = calculate_y(x)
+    print(f"x = {x}, y = {y}")
+
+# 2. Finding the root where y = 0 using the quadratic formula
+a = 1
+b = 6
+c = 9
+
+discriminant = b**2 - 4*a*c
+
+if discriminant >= 0:
+    # There is at least one real root
+    root1 = (-b + math.sqrt(discriminant)) / (2 * a)
+    root2 = (-b - math.sqrt(discriminant)) / (2 * a)
+    
+    if root1 == root2:
+        print(f"\nHay una única solución: x = {root1}")
+    else:
+        print(f"\nSoluciones donde Y es 0: x = {root1} and x = {root2}")
+else:
+    print("\nNo hay soluciones reales (raíces complejas).")
+
+# - Find the length of 'python' and 'dragon' with a falsy comparison
+print('Comparar el largo de las palabras:')
+
+if(len('python')) == len('dragon'):
+    print('"python" es igual de largo que "dragon"')
+
+if(len('python')) > len('dragon'):
+    print('la palabra "python" es más larga')
+
+if(len('python')) < len('dragon'):
+    print('la palabra "dragon" es más larga')
