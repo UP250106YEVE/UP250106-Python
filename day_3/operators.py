@@ -123,3 +123,90 @@ if(len('python')) > len('dragon'):
 
 if(len('python')) < len('dragon'):
     print('la palabra "dragon" es más larga')
+
+    sentence = "I hope this course is not full of jargon."
+word_to_check = "jargon"
+
+# - Jargon in sentence
+
+sentence = "I hope this course is not full of jargon."
+word_to_check = "jargon"
+
+if word_to_check in sentence:
+    print(f"Yes, '{word_to_check}' was found in the sentence.")
+else:
+    print(f"No, '{word_to_check}' is not there.")
+
+# - No 'on'
+
+words = ["dragon", "python"]
+substring = "on"
+
+for word in words:
+    if substring in word:
+        print(f"Actually, '{substring}' IS in '{word}'.")
+else:
+    print("Wait, the sentence was a trick!")
+
+# - Length of 'python' and convert value
+
+texto = "python"
+longitud = len(texto)
+longitud_float = float(longitud)
+longitud_str = str(longitud_float)
+
+#Results
+print(f"Texto: {texto}")
+print(f"Longitud como entero: {longitud}")
+print(f"Longitud como float: {longitud_float}")
+print(f"Longitud como string: '{longitud_str}'")
+
+# - Floor division of 7 by 3
+resultado_division = 7 // 3
+
+#2.7
+resultado_entero = int(2.7)
+son_iguales = resultado_division == resultado_entero
+
+print(f"7 // 3 = {resultado_division}")
+print(f"int(2.7) = {resultado_entero}")
+print(f"¿Son iguales? {son_iguales}")
+
+# - 10 equal type 10
+
+tipo_texto = type('10')
+tipo_entero = type(10)
+son_tipos_iguales = tipo_texto == tipo_entero
+
+print(f"Tipo de '10': {tipo_texto}")
+print(f"Tipo de 10: {tipo_entero}")
+print(f"¿Son los tipos iguales? {son_tipos_iguales}")
+
+# - Check 9.8 int == 10 and divisible by 2
+
+numero=int(input("\nIngresa un numero para saber si es par o impar: "))
+print("Tu número es ",("Par" if numero % 2 == 0 else "Impar"))
+print (type(10)==type(10))
+print(int(9.8)==10)
+
+# - Calculate the salary
+
+print("\nCalcular el salario de una persona")
+hora=float(input("Cuantas horas trabajo: "))
+salperhora=float(input("Cuanto es su salario por hora: "))
+salario=hora*salperhora
+print("El salario final es de: ",salario)
+
+# - Years lived
+
+añosvida=int(input("\nIngresa el número de años que has vivido:"))
+segundos=añosvida*365*24*60*60
+print("Tu has vivido por ",segundos," segundos")
+
+# - Following table
+
+print("\nLa tabla es: ")
+
+for i in range(1, 6):  # From 1 to 5
+
+    print(i, 1, i, i*2, i*3)
