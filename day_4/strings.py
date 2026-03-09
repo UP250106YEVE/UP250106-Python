@@ -186,7 +186,7 @@ print("I am enjoying this challenge.\nI just wonder what is next.")
 # 34.
 
 print('Name\tAge\t\Country\tChallenge')
-print('Asabeneh\t250\t\Finland\Helsinki')
+print('Asabeneh\t250\t\tFinland\tHelsinki')
 
 
 # 35.
