@@ -110,3 +110,99 @@ print(acronym)
 
 frase = 'Coding For All'
 index = frase[0]
+
+# 21.
+
+frase = 'Coding For All'
+sub_string = 'F'
+print(frase.index(sub_string))
+
+# 22. 
+
+frase = 'Coding For All People'
+print(frase.rfind('i')) 
+
+# 23.
+
+frase = 'You cannot end a sentence with because because because is a conjunction'
+print(frase.find('because'))
+
+# 24.
+
+frase = 'You cannot end a sentence with because because because is a conjunction'
+print(frase.rindex('because'))
+
+# 25.
+
+frase = 'You cannot end a sentence with because because because is a conjunction'
+cortar = frase.find('because')
+cortar = frase.rfind('because')
+print(frase[:31] + frase[54:])
+
+# 26. 
+
+frase = 'You cannot end a sentence with because because because is a conjunction'
+print(frase.find('because'))
+
+# 27.
+
+frase = 'You cannot end a sentence with because because because is a conjunction'
+cortar = frase.find('because')
+cortar = frase.rfind('because')
+print(frase[:31] + frase[54:])
+
+# 28. 
+
+frase = 'Coding For All'
+print(frase.startswith('Coding'))
+
+# 29.
+
+frase = 'Coding For All'
+print(frase.endswith('Coding'))
+
+# 30.
+
+frase = '   Coding For All      '
+print(frase.strip(' '))
+
+# 31.
+
+frase1 = '30DaysOfPython'
+frase2 = 'thirty_days_of_python'
+print(frase1.isidentifier())
+print(frase2.isidentifier())
+
+# 32. 
+
+listas =  ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon', '']
+resultado = '# '.join(listas)
+print(resultado)
+
+# 33.
+
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
+# 34.
+
+print('Name\tAge\t\Country\tChallenge')
+print('Asabeneh\t250\t\Finland\Helsinki')
+
+
+# 35.
+
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with radius', radius,' is', area, 'square meters')
+
+# 36.
+
+a = 8
+b = 6
+print(f'{a} + {b} = {a +b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} * {b} = {a * b}')
+print(f'{a} / {b} = {a / b:.2f}')
+print(f'{a} % {b} = {a % b}')
+print(f'{a} // {b} = {a // b}')
+print(f'{a} ** {b} = {a ** b}')
