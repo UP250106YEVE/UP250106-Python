@@ -12,7 +12,7 @@ print('The middle item is: ',middle)
 last = brands[5]
 print('The last item is: ',last)
 
-mixed_data_types = ['Yexuanj', 18, 1.70, 'Engaged', 'Jalisco']
+mixed_data_types = ['Yexuanj', 18, 1.70, 'Engaged', 'Aguascalientes']
 
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 print('New list: ', it_companies)
@@ -57,3 +57,38 @@ print('Removing last \'IT\': ', it_companies_copy_2)
 
 it_companies_copy_3.clear()
 print('Deleting the \'IT\' companies list: ', it_companies_copy_3)
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node', 'Express', 'MongoDB'] 
+total_end = front_end + back_end
+print('Joinig two lists: ', total_end)
+
+full_stack = total_end.copy()
+full_stack.insert(5, 'Python')
+print('Adding \'Python\': ', full_stack)
+full_stack.insert(6, 'SQL')
+print('Adding \'SQL\': ', full_stack)
+
+#Excercises level 2
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+print('Ages of students: ', ages)
+
+ages.sort()
+min_age =ages[0]
+max_age = ages[-1]
+print('Minimum age: ', min_age)
+print('Maximun age: ', max_age)
+
+ages.extend([min_age, max_age])
+ages.sort()
+print('Adding two more ages: ',ages)
+a = len(ages)
+median = (ages[a//2-1] + ages[a//2]) / 2
+
+average = sum(ages) / a
+
+age_ramge = max_age - min_age
+diff_min = abs(min_age - average)
+diff_max = abs(max_age - average)
+print(f'Median: {median}, Average: {average}, Range: {age_ramge}')
+print(f'Min diff: {diff_min}, Max diff: {diff_max}')
