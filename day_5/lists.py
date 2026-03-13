@@ -12,7 +12,7 @@ print('The middle item is: ',middle)
 last = brands[5]
 print('The last item is: ',last)
 
-mixed_data_types = ['Santos', 18, 1.76, 'Engaged', 'Jalisco']
+mixed_data_types = ['Yexuanj', 18, 1.70, 'Engaged', 'Jalisco']
 
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 print('New list: ', it_companies)
