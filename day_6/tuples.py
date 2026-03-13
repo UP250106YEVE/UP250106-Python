@@ -10,8 +10,8 @@ siblings_names = sisters_names + brothers_names
 print('Siblings names: ', siblings_names)
 print('I have', len(siblings_names), 'siblings')
 family_members = list(siblings_names)
-family_members.append('Ricardo')
-family_members.append('Rodolfo')
+family_members.append('Juan Andres')
+family_members.append('Sara Eudave')
 print('Family members: ', family_members)
 family_members = tuple(family_members)
 #Excercises level 2
@@ -42,3 +42,8 @@ print('Slicing out the first three items: ', apple_banana_orange)
 foos_soap_leather = food_stuff_tp[-3:]
 print('Slicing out the last three items: ', foos_soap_leather)
 del food_stuff_tp
+print(' ')
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+print('Nordic countries: ', nordic_countries)
+print('Is Estonia in Nordic countries? ', 'Estonia' in nordic_countries)
+print('Is Iceland in Nordic countries?', 'Iceland' in nordic_countries)
