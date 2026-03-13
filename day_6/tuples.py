@@ -29,3 +29,16 @@ print('Vegetables: ', vegetables)
 animal_products = ('Food', 'Soap', 'Leather')
 print('Animal products: ', animal_products)
 food_stuff_tp = fruits + vegetables + animal_products
+animal_products = ('Food', 'Soap', 'Leather')
+print('Animal products: ', animal_products)
+food_stuff_tp = fruits + vegetables + animal_products
+print('All together: ', food_stuff_tp)
+food_stuff_tp_list = list(food_stuff_tp)
+print('Tuple to list: ', food_stuff_tp_list)
+carrot_and_cilantro = food_stuff_tp[4:6]
+print('Slicing out the middle items: ', carrot_and_cilantro)
+apple_banana_orange = food_stuff_tp[0:3]
+print('Slicing out the first three items: ', apple_banana_orange)
+foos_soap_leather = food_stuff_tp[-3:]
+print('Slicing out the last three items: ', foos_soap_leather)
+del food_stuff_tp
