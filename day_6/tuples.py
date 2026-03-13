@@ -14,3 +14,18 @@ family_members.append('Ricardo')
 family_members.append('Rodolfo')
 print('Family members: ', family_members)
 family_members = tuple(family_members)
+#Excercises level 2
+print(' ')
+print('Unpacking siblings, father and mother')
+*sibs, father, mother = family_members
+print('Siblings: ', sibs)   
+print('Father: ', father) 
+print('Mother: ', mother)
+
+fruits = ('Apple', 'Banana', 'Orange', 'Grape')
+print('Fruits: ', fruits)
+vegetables = ('Carrot', 'Cilantro', 'Onion')
+print('Vegetables: ', vegetables)
+animal_products = ('Food', 'Soap', 'Leather')
+print('Animal products: ', animal_products)
+food_stuff_tp = fruits + vegetables + animal_products
