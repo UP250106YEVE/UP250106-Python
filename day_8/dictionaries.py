@@ -13,7 +13,7 @@ student = {'first_name':'Yex',
         'gender':'Male',
         'age':'18',
         'marital_status':'Con mi mujer',
-        'skills':['Unknown'],
+        'skills':['habilidad1','habilidad2'],
         'country':'Mexico',
         'City':'Aguascalientes',
         'adress':'Fco. I. Madero. #238, Calvillo'
@@ -22,9 +22,18 @@ print(student)
 
 print(len(student))
 
-print(student['skills'])
-
-student['skills'] = 'habilidad1'
-
+student['skills'].append('habilidad3')
 print(student)
 
+keys = student.keys()
+print(keys)
+
+values = student.values()
+print(values)
+
+print(student.items())
+
+del student['skills']
+print(student)
+
+del student
