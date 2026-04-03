@@ -31,3 +31,37 @@ for i in range(0, 101, 2):
 
 for i in range(1, 101, 2):
     print(i)
+
+countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+countries_with_land = []
+
+for country in countries:
+    if 'land' in country.lower():
+        countries_with_land.append(country)
+
+print(countries_with_land)
+
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+reversed_fruits = []
+
+for i in range(len(fruits) - 1, -1, -1):
+    reversed_fruits.append(fruits[i])
+
+print(reversed_fruits)
+
+languages_set = set()
+
+for country in countries:
+    for lang in country['languages']:
+        languages_set.add(lang)
+
+print(f"Total de idiomas: {len(languages_set)}")
+
+
+most_populated = sorted(countries_data, key=lambda x: x['population'], reverse=True)
+
+print("Top 10 países más poblados:")
+for i in range(10):
+    country = most_populated[i]
+    print(f"{i+1}. {country['name']}: {country['population']}")
