@@ -17,3 +17,17 @@ for fila in range(8):
     for columna in range(8):
         print("#", end=" ")
     print()
+
+for i in range(11):
+    print(f"{i} x {i} = {i * i}")
+
+librerias = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask']
+
+for item in librerias:
+    print(item)
+
+for i in range(0, 101, 2):
+    print(i)
+
+for i in range(1, 101, 2):
+    print(i)
