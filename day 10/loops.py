@@ -32,36 +32,36 @@ for i in range(0, 101, 2):
 for i in range(1, 101, 2):
     print(i)
 
-countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+from countries import countries
 countries_with_land = []
-
 for country in countries:
     if 'land' in country.lower():
         countries_with_land.append(country)
-
-print(countries_with_land)
-
-
-fruits = ['banana', 'orange', 'mango', 'lemon']
-reversed_fruits = []
-
-for i in range(len(fruits) - 1, -1, -1):
-    reversed_fruits.append(fruits[i])
-
-print(reversed_fruits)
-
-languages_set = set()
-
+print('Countries with \'land\' in countries.py file: ', countries_with_land)
+print(' ')
+print('EXCERCISE 2')
+fruit_list =  ['banana', 'orange', 'mango', 'lemon']
+reversed_fruit_list = []
+for i in range(len(fruit_list) -1, -1, -1):
+    reversed_fruit_list.append(fruit_list[i])
+print('Original list: ', fruit_list)
+print('Reversed list: ', reversed_fruit_list)
+print(' ')
+print('EXCERCISE 3')
+from countries_data import countries
+all_languages = []
 for country in countries:
-    for lang in country['languages']:
-        languages_set.add(lang)
+    all_languages.extend(country['languages'])
+unique_languages = set(all_languages)
+print(f'Total number of unique languages: {len(unique_languages)}')
 
-print(f"Total de idiomas: {len(languages_set)}")
-
-
-most_populated = sorted(countries_data, key=lambda x: x['population'], reverse=True)
-
-print("Top 10 países más poblados:")
-for i in range(10):
-    country = most_populated[i]
-    print(f"{i+1}. {country['name']}: {country['population']}")
+from collections import Counter
+language_counts = Counter(all_languages)
+most_spoken = language_counts.most_common(10)
+print('Ten monst spoken languages: ', most_spoken)
+print(' ')
+print('Most populated countries')
+sorted_countries = sorted(countries, key = lambda x: x['population'], reverse=True)
+top_10_populated = sorted_countries[:10]
+for country in top_10_populated:
+    print(f'{country['name']}: {country['population']}')
