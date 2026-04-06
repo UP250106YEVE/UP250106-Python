@@ -93,3 +93,49 @@ food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk']
 print('Adding item to list: ', add_item(food_stuff, 'Meat'))
 numbers = [2, 3, 7, 9]
 print('Adding item to list: ', add_item(numbers, 5))
+
+def remove_item (my_list, item):
+    new_list = my_list.copy()
+    new_list.remove(item)
+    return new_list
+food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print('Removing item: ', remove_item(food_stuff, 'Mango'))
+numbers = [2, 3, 7, 9]
+print('Removing item: ', remove_item(numbers, 3))
+
+def sum_of_numbers (n):
+    total = 0
+    for i in range(n + 1):
+        total += i
+    return total
+print('Sum of numbers in range 0-5: ', sum_of_numbers(5))
+print('Sum of numbers in range 0-10: ', sum_of_numbers(10))
+print('Sum of numbers in range 0-100: ', sum_of_numbers(100))
+
+def sum_of_odds (n):
+    total = 0
+    for i in range (n + 1):
+        if i % 2 != 0:
+            total += i
+    return total
+print('Sum of odds in range 0-10: ', sum_of_odds(10))
+
+def sum_of_evens (n):
+    total = 0
+    for i in range (n + 1):
+        if i % 2 == 0:
+            total += i
+    return total
+print('Sum of evens in range 0-10: ', sum_of_evens(10))
+print(' ')
+print('EXCERCISES LEVEL 2')
+def evens_and_odds (n):
+    evens = 0
+    odds = 0
+    for i in range (n + 1):
+        if i % 2 == 0:
+            evens += 1
+        else:
+            odds += 1
+    print(f'The number of odds in range 0-100 is: {odds}')
+    print(f'The number of evens in range 0-100 is: {evens}')
