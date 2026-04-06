@@ -33,6 +33,7 @@ for i in range(1, 101, 2):
     print(i)
 
 from countries import countries
+from day_10 import countries_data
 countries_with_land = []
 for country in countries:
     if 'land' in country.lower():
@@ -50,7 +51,7 @@ print(' ')
 print('EXCERCISE 3')
 from countries_data import countries
 all_languages = []
-for country in countries:
+for countries in countries_data:
     all_languages.extend(country['languages'])
 unique_languages = set(all_languages)
 print(f'Total number of unique languages: {len(unique_languages)}')

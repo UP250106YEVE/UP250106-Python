@@ -1,4 +1,3 @@
-#Day_11
 print('EXCERCISES LEVEL 1')
 def add_two_numbers (num_one, num_two):
     sum = num_one + num_two
@@ -22,6 +21,7 @@ def convert_celsius_to_fahrenheit (C):
     F = (C * 9/5) +32
     return F
 print('Celsius to fahrenheit: ', convert_celsius_to_fahrenheit(30), '°F')
+
 def check_season (month):
     if month in ['September', 'October', 'November']:
         season = str('Autumn')
@@ -61,29 +61,3 @@ def solve_quadratic_eqn (a, b, c):
         root1 = complex(real_part, imaginary_part)
         root2 = complex(real_part, -imaginary_part)
         return {root1, root2}
-print('Solve quadratic equation: ', solve_quadratic_eqn(1, -5, 6))
-
-def print_list (my_list):
-    for element in my_list:
-        print('List element: ', element)
-car_brands = ['Volkswagen', 'Porsche', 'Audi', 'BMW']
-print_list(car_brands)
-
-def reverse_list (array):
-    reverse_array = []
-    for i in range(len(array)-1, -1, -1):
-        reverse_array.append(array[i])
-    return reverse_array
-print('Reversed list: ', reverse_list([1, 2, 3, 4, 5]))
-print('Reversed list: ', reverse_list(['A', 'B', 'C']))
-
-def capitalize_list_items(my_list):
-    capitalized_list = []
-    for item in my_list:
-        capitalized_list.append(str(item).capitalize())
-    return capitalized_list
-objects = ['paper', 'wallet' , 'bottle', 'backpack']
-print('Capitalized llist: ', capitalize_list_items(objects))
-
-def add_item(my_list, item):
-    new_list = my_list.copy()
