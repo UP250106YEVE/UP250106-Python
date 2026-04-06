@@ -139,3 +139,73 @@ def evens_and_odds (n):
             odds += 1
     print(f'The number of odds in range 0-100 is: {odds}')
     print(f'The number of evens in range 0-100 is: {evens}')
+evens_and_odds(100)
+
+def factorial (n):
+    if n < 0:
+        return 'Error: Negative numbers dont have factorials'
+    result = 1
+    for i in range(1, n + 1 ):
+        result *= i
+    return result
+print('Factorial of 5: ', factorial(5))
+
+def is_empty (parameter):
+    if len(parameter) == 0:
+        return True
+    else:
+        return False
+print('Is empty?', is_empty([]))
+print('Is empty?', is_empty(['Hello']))
+print('Is empty?', is_empty({}))
+
+import math
+def calculate_mean (data):
+    return sum(data) / len(data)
+def calculate_median (data):
+    sorted_data = sorted(data)
+    n = len(sorted_data)
+    mid = n // 2
+
+    if n % 2 == 0:
+        return (sorted_data[mid - 1] + sorted_data[mid]) / 2
+    else:
+        return sorted_data[mid]
+def calculate_mode (data):
+    counts = {}
+    for item in data:
+        counts[item] = counts.get(item, 0) + 1
+
+    max_count = max(counts.values())
+    modes = [key for key, val in counts.items() if val == max_count]
+    return modes
+def calculate_range (data):
+    return max(data) - min(data)
+def calculate_variance (data):
+    mu = calculate_mean(data)
+    return sum((x - mu) ** 2 for x in data) / len(data)
+def calculate_std (data):
+    variance = calculate_variance(data)
+    return math.sqrt(variance)
+test_scores = [85, 90, 78, 90, 92]
+print('Test scores: ', test_scores)
+print(f"Mean: {calculate_mean(test_scores)}")
+print(f"Median: {calculate_median(test_scores)}")
+print(f"Mode: {calculate_mode(test_scores)}")
+print(f"Range: {calculate_range(test_scores)}")
+print(f"Std Dev: {calculate_std(test_scores):.2f}")
+
+def greet (name = 'Guest'):
+    print(f'Hello, {name}!')
+greet()
+greet('Santos')
+
+def show_args (**kargs):
+    output_parts = []
+    for name, value in kargs.items():
+        output_parts.append(f"{name}: {value}")
+    print("Received: " + ", ".join(output_parts))
+show_args(name = 'Alice', age = 30, city = 'New York')
+show_args(name = 'Bob', pet = 'Fluffy, the bunny')
+print(' ')
+print('EXCERCISES LEVEL 3')
