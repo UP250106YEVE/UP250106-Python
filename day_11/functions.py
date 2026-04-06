@@ -205,3 +205,61 @@ def show_args (**kargs):
     for name, value in kargs.items():
         output_parts.append(f"{name}: {value}")
     print("Received: " + ", ".join(output_parts))
+show_args(name = 'Alice', age = 30, city = 'New York')
+show_args(name = 'Bob', pet = 'Fluffy, the bunny')
+print(' ')
+print('EXCERCISES LEVEL 3')
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+print('Is 7 prime?', is_prime(7))
+
+def all_unique(lst):
+    return len(lst) == len(set(lst))
+unique_list = ['Hi', 'Hello', 'Bonjour', 'Hola']
+print(unique_list)
+print('Are the items in the list unique?', all_unique(unique_list))
+
+def same_data_type(lst):
+    if not lst:
+        return True
+    first_type = type(lst[0])
+    return all(type(item) == first_type for item in lst)
+same_data = [1, 2, 3, 4]
+print(same_data)
+print('Are the items in the list the same data type?', same_data_type(same_data))
+
+import keyword
+def is_valid_variable(name):
+    if not isinstance(name, str):
+        return False
+    return name.isidentifier() and not keyword.iskeyword(name)
+print('Is 9 a valid variable?', is_valid_variable(9))
+
+
+from collections import Counter
+from countries_data import countries
+
+def most_spoken_languages(n=10):
+    all_languages = []
+    for country in countries:
+        all_languages.extend(country['languages'])
+
+    counts = Counter(all_languages)
+    return counts.most_common(n)
+
+print('Most 10 spoken languages: ', most_spoken_languages(10))
+print('Most 20 spoken languages: ', most_spoken_languages(20))
+
+def most_populated_countries(n=10):
+    sorted_list = sorted(countries, key=lambda x: x['population'], reverse=True)
+
+    return sorted_list[:n]
+print('MOST POPULATED COUNTRIES')
+top_countries = most_populated_countries(10)
+for c in top_countries:
+    print(f"{c['name']}: {c['population']}")
