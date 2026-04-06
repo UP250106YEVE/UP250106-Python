@@ -61,3 +61,81 @@ def solve_quadratic_eqn (a, b, c):
         root1 = complex(real_part, imaginary_part)
         root2 = complex(real_part, -imaginary_part)
         return {root1, root2}
+print('Solve quadratic equation: ', solve_quadratic_eqn(1, -5, 6))
+
+def print_list (my_list):
+    for element in my_list:
+        print('List element: ', element)
+car_brands = ['Volkswagen', 'Porsche', 'Audi', 'BMW']
+print_list(car_brands)
+
+def reverse_list (array):
+    reverse_array = []
+    for i in range(len(array)-1, -1, -1):
+        reverse_array.append(array[i])
+    return reverse_array
+print('Reversed list: ', reverse_list([1, 2, 3, 4, 5]))
+print('Reversed list: ', reverse_list(['A', 'B', 'C']))
+
+def capitalize_list_items(my_list):
+    capitalized_list = []
+    for item in my_list:
+        capitalized_list.append(str(item).capitalize())
+    return capitalized_list
+objects = ['paper', 'wallet' , 'bottle', 'backpack']
+print('Capitalized llist: ', capitalize_list_items(objects))
+
+def add_item(my_list, item):
+    new_list = my_list.copy()
+    new_list.append(item)
+    return new_list
+food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print('Adding item to list: ', add_item(food_stuff, 'Meat'))
+numbers = [2, 3, 7, 9]
+print('Adding item to list: ', add_item(numbers, 5))
+
+def remove_item (my_list, item):
+    new_list = my_list.copy()
+    new_list.remove(item)
+    return new_list
+food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print('Removing item: ', remove_item(food_stuff, 'Mango'))
+numbers = [2, 3, 7, 9]
+print('Removing item: ', remove_item(numbers, 3))
+
+def sum_of_numbers (n):
+    total = 0
+    for i in range(n + 1):
+        total += i
+    return total
+print('Sum of numbers in range 0-5: ', sum_of_numbers(5))
+print('Sum of numbers in range 0-10: ', sum_of_numbers(10))
+print('Sum of numbers in range 0-100: ', sum_of_numbers(100))
+
+def sum_of_odds (n):
+    total = 0
+    for i in range (n + 1):
+        if i % 2 != 0:
+            total += i
+    return total
+print('Sum of odds in range 0-10: ', sum_of_odds(10))
+
+def sum_of_evens (n):
+    total = 0
+    for i in range (n + 1):
+        if i % 2 == 0:
+            total += i
+    return total
+print('Sum of evens in range 0-10: ', sum_of_evens(10))
+print(' ')
+print('EXCERCISES LEVEL 2')
+def evens_and_odds (n):
+    evens = 0
+    odds = 0
+    for i in range (n + 1):
+        if i % 2 == 0:
+            evens += 1
+        else:
+            odds += 1
+    print(f'The number of odds in range 0-100 is: {odds}')
+    print(f'The number of evens in range 0-100 is: {evens}')
